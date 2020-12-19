@@ -1,6 +1,9 @@
 class Route:
+    id = int 
+    start = str
+    end = str
     
     def __init__(self, id, start, end):
-        self.id = int
-        self.start = []
-        self.end = []
+        self.id = id
+        self.start = start
+        self.end = end
